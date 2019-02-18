@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /* 1) TAG SELECTOR */
+        body{
+            background-color: aqua;
+            width: 360px;
+        }
+        p{
+           width: 100px;
+            height: 100px;
+             background-color: greenyellow;
+             margin: 10px;
+             float: left;
+        }
+        /* 2) CLASS SELECTOR */
+        .row{
+            border: 5px solid red;
+            width: 90px; height: 90px;
+        }
+        .col{
+            background-color: green;
+            border-radius: 20px;
+        }
+        /* 3) ID SELECTOR */
+        #first{
+            border-radius: 100px 0 0 0;
+        }
+        #last{
+            border-radius: 0 0 100px 0;
+        }
+        p:hover{
+            background-color: deeppink;
+        }
+        #patru{
+            border-left-width: 1px;
+            border-right-width: 9px;
+        }
+    </style>
+</head>
+<body>
+    <p id="first">1</p>
+    <p class="col">2</p>
+    <p>3</p>
+    <p class="row" id="patru">4</p>
+    <p class="row col">5</p>
+    <p class="row">6</p>
+    <p>7</p>
+    <p class="col">8</p>
+    <p id="last">9</p>
+</body>
+</html>
