@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        ul{
+            background-color: #36a865;
+            width: 200px;
+            list-style: none;
+            padding: 0;
+            border-left: 20px solid #2f3632;
+            float: right;
+            margin-right: -210px;
+            transition: 0.3s;
+        }
+        a{
+            text-decoration: none;
+            color: #ffffff;
+        }
+        li{
+            padding: 15px;
+            border-bottom: 2px solid #2f3632;
+            padding: 20px;
+        }
+        li:last-child{
+            border-bottom:2px solid #36a865;
+        }
+        li:hover{
+            background-color: #000000;
+        }
+        a::before{
+            content: "\2605";
+            padding-right: 10px;
+            font-size: 30px;
+        }
+        ul:hover{
+            margin-right: 0px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="https://ru.wikipedia.org/wiki/HTML" target="_blank">HTML</a></li>
+            <li><a href="https://ru.wikipedia.org/wiki/CSS" target="_blank">CSS</a></li>
+            <li><a href="https://sass-scss.ru/" target="_blank">SCSS</a></li>
+            <li><a href="https://ru.wikipedia.org/wiki/JavaScript" target="_blank">JS</a></li>
+            <li><a href="https://ru.wikipedia.org/wiki/PHP" target="_blank">PHP</a></li>
+        </ul>
+    </nav>
+    
+</body>
+</html>
