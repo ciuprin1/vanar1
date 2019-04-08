@@ -1,0 +1,40 @@
+/* 
+#D95B59 red
+#598CD9 blue
+#D957BF pink
+-----------------
+#4B4C4F serii
+#383838 temnii serii
+*/
+body{
+    width: 1200px;
+    margin: auto;
+    font-family: Arial;
+    background-color: #555;
+}
+header nav{
+    background-image: linear-gradient(#4B4C4F,#383838);
+    padding: 1em;
+}
+header nav a{
+    color: #598CD9;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 1em;
+}
+header nav a :first-child{
+    margin-right: 30px;
+}
+section{
+    height: 100vh;
+}
+footer{
+    background-color: #383838;
+}
+.slick-dots button::before{
+    font-size: 20px !important;
+}
+#carousel div img{
+    margin: auto;
+}

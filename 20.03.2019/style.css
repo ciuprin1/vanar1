@@ -1,0 +1,41 @@
+body{
+    background-color: #333;
+}
+#background{
+    background-image: url(./img/lake-hd.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    /* height: 600px; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    animation: daynight 10s infinite;
+
+
+    /* mix-blend-mode: multiply; */
+
+}
+#background .swan{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    
+}
+#background .swan1{
+    background-image: url(./img/swan1.png);
+    height: 290px;
+    width: 15%;
+    transform: translateY(250px);
+}
+#background .swan2{
+    background-image: url(./img/swan2.png);
+    height: 290px;
+    width: 30%;
+    transform: translateY(150%) translateX(20%);
+    
+    
+}

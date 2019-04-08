@@ -1,0 +1,26 @@
+body{
+    background-color: #333;
+
+}
+#preloader{
+    width: 1px;
+    height: 1px;
+    border: 1px solid red;
+    margin-left: 50vw;
+    margin-top: 50vh;
+}
+#preloader figure{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    box-shadow: 0 0 5px 5px red;
+    overflow: hidden;
+}
+#preloader figcaption,#preloader img{
+    /* display: none; */
+    /* opacity: 0.5; */
+    
+    transform: translateX(-89px) translateY(-43px) rotate(-45deg);
+
+}

@@ -1,0 +1,57 @@
+body{
+    background-color: #333;
+
+}
+header{
+    background-color: #555;
+    height: 1em;
+    padding: 10px;
+    font-size: 19px;
+    color: white;
+    box-shadow:0 0 5px 2px rgba(0, 0, 0, 0.424);
+}
+header ul:first-child{
+    float: left;
+}
+header ul:last-child{
+    float: right;
+}
+header li{
+float: left;
+}
+form{
+    float: left;
+    padding-left: 10vh;
+}
+header .fas,
+header .fab{
+    font-size: 21px;
+}
+header ul:first-child a{
+padding: 20px;
+}
+header ul:last-child a{
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: red;
+}
+nav .fab{
+    background-color: white;
+    color: red;
+}
+nav .fas{
+        background: white;
+}
+button{
+    background-color: #333;
+    border: 1px solid #333;
+    float: left;
+}
+input{
+    padding-top: 0.4em;
+    float: left;
+    background: #000;
+    color: aqua;
+}

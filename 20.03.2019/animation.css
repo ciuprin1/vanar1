@@ -1,0 +1,17 @@
+@keyframes daynight{
+    from{
+        /* opacity: 0.2; */
+        /* filter: brightness(10%); */
+        filter: blur(4px) brightness(10%);
+    }
+    50%{
+        /* opacity: 1.0; */
+        /* filter: brightness(150%); */
+        filter: blur(0px) brightness(200%);
+    }
+    to{
+        /* opacity: 0.2; */
+        /* filter: brightness(10%); */
+        filter: blur(4px) brightness(10%);
+    }
+}

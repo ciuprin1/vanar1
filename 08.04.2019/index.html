@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />  
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href=""><img src="images/logo-sm.png"></a>
+            <a href="#carousel">CAROUSEL</a>
+            <a href="#features">FEATURES</a>
+            <a href="#testimonies">TESTIMONIES</a>
+            <a href=""><i class="fas fa-user"></i></a>
+        </nav>
+    </header>
+    <section id="carousel">
+        <div class="photo-carousel">
+            <div><img src="images/1.jpg" alt=""></div>
+            <div><img src="images/2.jpg" alt=""></div>
+            <div><img src="images/3.jpg" alt=""></div>
+            <div><img src="images/4.jpg" alt=""></div>
+            <div><img src="images/5.jpg" alt=""></div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="features-carousel owl-carousel owl-theme">
+            <div class="item">
+                <h2>1</h2>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo deleniti veritatis, inventore sint commodi, repellat accusantium reprehenderit aut facilis optio similique blanditiis nemo harum! Incidunt in debitis ad sint ipsa?</p>
+            </div>
+            <div class="item">
+                <h2>2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minus pariatur, repudiandae atque aperiam, et ut blanditiis nostrum minima, eum alias deserunt molestias ipsam voluptatum laborum dolore architecto veniam consectetur!Sed, velit ipsa? Atque, repudiandae! Expedita eius, illum iure earum consequatur minus itaque aspernatur, excepturi tempora error, pariatur omnis quisquam. Vel asperiores deleniti, itaque possimus libero natus dolor tempore nobis.</p>
+            </div>
+            <div class="item">
+                <h2>3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere ex odit optio quidem pariatur harum corrupti, obcaecati voluptatibus! Quaerat aut ullam inventore ea laudantium deserunt unde dicta facere facilis quasi.
+                Veritatis commodi aut minus odio qui illo, earum accusamus ducimus, eveniet aperiam, explicabo maiores dolore molestiae nemo neque suscipit impedit illum quasi quibusdam deserunt. Suscipit mollitia aliquam aspernatur est soluta!
+                A fugit reiciendis, laboriosam temporibus rerum praesentium excepturi fugiat expedita blanditiis accusamus vitae quod, quis rem? Nihil optio suscipit quibusdam aliquid a impedit officia nobis enim, ex voluptatem provident sint?</p>
+            </div>
+            <div class="item">
+                <h2>4</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus reiciendis neque, laboriosam, magni nemo assumenda veniam, magnam eos beatae quidem necessitatibus iusto illo vero maxime? Corrupti distinctio quasi ea perferendis.Sed suscipit esse quia aliquam, quis eligendi eius quam minima nesciunt maxime fugit distinctio non aut ut veniam repellendus voluptates consectetur magnam quibusdam dolore! Sapiente reiciendis deleniti quaerat at repellendus!</p>
+            </div>
+            <div class="item">
+                <h2>5</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, officiis a. Amet cupiditate officia delectus earum animi labore voluptates dolorum odit ratione et repellat veniam accusantium, tenetur eveniet adipisci ab.
+                Quasi, voluptatum quam minus qui, aliquid ipsam odio debitis ex quo similique pariatur architecto omnis voluptate adipisci placeat repudiandae nobis. Esse ut doloremque libero. Blanditiis expedita excepturi est repudiandae sint.
+                Non accusantium, porro voluptatibus delectus quidem nam rerum vero, veritatis nobis sint dignissimos, animi quos! Perspiciatis excepturi neque unde atque corporis magni explicabo recusandae voluptate consequuntur a. Molestiae, quod maiores!</p>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+    <section id="testimonies">
+        testimonies
+    </section>
+    <footer>
+        footer
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+  $('.photo-carousel').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    dots: true,
+    fade: true
+  });
+});
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+    $(document).ready(function(){
+  $(".features-carousel").owlCarousel({
+    loop:true,
+    nav:true,
+    center: true
+
+
+
+  });
+});
+    </script>
+</body>
+</html>
